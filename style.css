@@ -1,0 +1,133 @@
+*{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header{
+  height: 69px;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  top: 0px;
+}
+
+.logo{
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  height: 58px; /*the originally 50 that was requested just didn't look right so making it bigger was a little better*/
+  width: auto;
+}
+
+header nav{
+  text-align: right;
+  padding-top: 20px;
+}
+
+nav span{
+  display: inline-block;
+  text-align: right;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+.mission-image{
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.content h2{
+  font-size: 34px;
+  margin: 0;
+  padding: 10px;
+}
+
+.content h4{
+  margin: 0;
+  padding: 10px;
+}
+
+.tea-content{
+  padding-top: 70px;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tea-content-images{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-content-images img{
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.tea-content-images span{
+  font-weight: bold;
+  display: block;
+}
+
+.locations-content{ /*i really tried on this part. this was as far as I could get*/
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  width: 1100px;
+  height: 600px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+}
+
+.locations-container{
+  display: flex;
+  opacity: 1.0;
+}
+
+.locations-content h2{
+  padding-bottom: 15px;
+  display: block;
+  background-color: transparent;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.locations-content .location{
+  flex-direction: column;
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1.0;
+}
+
+.contact{
+  height: 200px;
+}
+
+.contacts h2{
+  font-size: 38px;
+}
+
+footer h5{
+  text-align: left;
+  margin-left: 20px;
+}
